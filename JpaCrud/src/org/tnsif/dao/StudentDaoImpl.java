@@ -52,4 +52,10 @@ public class StudentDaoImpl implements StudentDao{
 		em.getTransaction().commit();		
 	}
 
+	@Override
+	public Student getStudentById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

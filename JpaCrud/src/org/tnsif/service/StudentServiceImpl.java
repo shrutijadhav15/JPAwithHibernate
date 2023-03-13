@@ -35,5 +35,15 @@ public Student findStudentById(int id) {
 Student student = dao.getStudentById(id);
 return student;
 }
+@Override
+public void delete(Student s1) {
+	// TODO Auto-generated method stub
+	
+}
+@Override
+public Student get(int nextInt) {
+	// TODO Auto-generated method stub
+	return null;
+}
 
 }

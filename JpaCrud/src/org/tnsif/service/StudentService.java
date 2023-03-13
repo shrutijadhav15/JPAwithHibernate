@@ -7,4 +7,6 @@ public abstract void updateStudent(Student student);
 public abstract void removeStudent(Student student);
 
 public abstract Student findStudentById(int id);
+public abstract void delete(Student s1);
+public abstract Student get(int nextInt);
 }
